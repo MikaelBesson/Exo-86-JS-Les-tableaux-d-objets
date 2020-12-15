@@ -31,10 +31,15 @@ let voitures = {
     garage: 'concession',
     lieu: 'Fourmies',
     // Dans un tableau, ajouter les différentes voitures que vous possédez.
-    collection: [], // Vos voitures dans cette propriété !
+    collection: [citroen, peugeot,ford], // Vos voitures dans cette propriété !
 }
 
 // FIXME Parcourrez le tableau dans lequel vous avez placé vos objets.
 // TODO ==> invoquez la méthode ouvrirPorte pour chaque voiture de la collection.
 
+for(let i; i < voitures.collection.length; i++){
+    this.ouvrirPorte()
+    console.log(i);
+}
 
+result=document.getElementById("test");
