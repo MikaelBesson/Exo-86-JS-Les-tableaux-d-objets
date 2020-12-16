@@ -37,9 +37,13 @@ let voitures = {
 // FIXME Parcourrez le tableau dans lequel vous avez placé vos objets.
 // TODO ==> invoquez la méthode ouvrirPorte pour chaque voiture de la collection.
 
-for(let i; i < voitures.collection.length; i++){
-    this.ouvrirPorte()
-    console.log(i);
-}
+/*for(let item of voitures.collection){
+    item[i].voitures.collection.ouvrirPorte()
+    console.log(voitures.collection.ouvrirPorte());
+}*/
 
-result=document.getElementById("test");
+let result=document.getElementById("test");
+document.createElement("span");
+span.innerHTML =ford.color.innerHTML;
+
+
